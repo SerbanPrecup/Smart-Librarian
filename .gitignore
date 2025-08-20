@@ -1,0 +1,76 @@
+# =====================================
+# Python
+# =====================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =====================================
+# IDE / Editor
+# =====================================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# =====================================
+# Environment & secrets
+# =====================================
+
+.env
+*.env
+.env.local
+.env.*.local
+
+# =====================================
+# Logs & misc
+# =====================================
+
+*.log
+*.pot
+*.pyproj
+*.sln
+*.tmproj
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

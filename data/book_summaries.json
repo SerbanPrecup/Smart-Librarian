@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Man's Search for Meaning",
+    "short_summary": "A Holocaust survivor’s reflections on finding purpose even in the most inhumane conditions.",
+    "full_summary": "Written by Viktor E. Frankl, a psychiatrist and concentration camp survivor, this book explores how meaning and purpose are essential for human resilience. Frankl introduces 'logotherapy,' a psychological approach focused on finding meaning in life as a primary motivational force.",
+    "themes": ["meaning of life", "resilience", "suffering", "psychology"]
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "short_summary": "A sweeping history of human evolution, from hunter-gatherers to the modern world.",
+    "full_summary": "Yuval Noah Harari traces the development of Homo sapiens from the Stone Age through the present. The book examines key revolutions—cognitive, agricultural, and scientific—that shaped societies, economies, and belief systems, raising questions about the future of humanity.",
+    "themes": ["evolution", "civilization", "history", "culture"]
+  },
+  {
+    "title": "Capital in the Twenty-First Century",
+    "short_summary": "An influential analysis of wealth inequality across history.",
+    "full_summary": "Thomas Piketty investigates how wealth and capital have accumulated and concentrated over the last few centuries. He argues that unchecked capitalism tends to increase inequality and proposes progressive taxation and global wealth policies as solutions.",
+    "themes": ["economics", "inequality", "capitalism", "history"]
+  },
+  {
+    "title": "Dune",
+    "short_summary": "A science fiction epic set on a desert planet where politics, religion, and ecology collide.",
+    "full_summary": "Frank Herbert’s *Dune* follows Paul Atreides, whose family takes control of the desert planet Arrakis, the only source of the valuable spice 'melange.' Themes of power, destiny, ecology, and religion unfold in this rich saga, considered one of the greatest works of science fiction.",
+    "themes": ["power", "ecology", "destiny", "politics", "religion"]
+  },
+  {
+    "title": "Atomic Habits",
+    "short_summary": "A practical guide to building better habits and breaking bad ones.",
+    "full_summary": "James Clear presents a system for personal improvement based on small, incremental changes. He explains how habits are formed, how to make good habits attractive and easy, and how to eliminate destructive routines using 'habit stacking' and the power of compounding.",
+    "themes": ["habits", "self-improvement", "behavioral psychology", "motivation"]
+  },
+  {
+    "title": "The Body: A Guide for Occupants",
+    "short_summary": "An exploration of the human body’s complexity and wonders.",
+    "full_summary": "Bill Bryson offers a tour of the human body, explaining its functions with wit and clarity. From cells to organs to diseases, he highlights both scientific facts and curious anecdotes, making biology accessible and fascinating to the general reader.",
+    "themes": ["health", "biology", "anatomy", "science communication"]
+  },
+  {
+    "title": "I Am Zlatan Ibrahimović",
+    "short_summary": "The autobiography of football star Zlatan Ibrahimović.",
+    "full_summary": "This memoir recounts Zlatan’s rise from poverty in Sweden to becoming one of the most celebrated football players. It details his struggles, confidence, controversial persona, and unique journey through major European football clubs.",
+    "themes": ["football", "resilience", "identity", "success"]
+  },
+  {
+    "title": "Robinson Crusoe",
+    "short_summary": "A survival adventure of a man stranded on a deserted island.",
+    "full_summary": "Daniel Defoe’s classic follows Robinson Crusoe, shipwrecked on an island where he must build shelter, hunt, and adapt. The story explores survival, ingenuity, isolation, and human perseverance, often considered one of the first true English novels.",
+    "themes": ["adventure", "survival", "isolation", "human ingenuity"]
+  },
+  {
+    "title": "The Great Gatsby",
+    "short_summary": "A story of wealth, love, and the American Dream in the 1920s.",
+    "full_summary": "F. Scott Fitzgerald portrays Jay Gatsby, a wealthy man obsessed with rekindling a past romance with Daisy Buchanan. Set during the Jazz Age, the novel critiques materialism, excess, and the disillusionment of the American Dream.",
+    "themes": ["love", "wealth", "American Dream", "illusion"]
+  },
+  {
+    "title": "The Hitchhiker’s Guide to the Galaxy",
+    "short_summary": "A comedic sci-fi adventure through space after Earth’s destruction.",
+    "full_summary": "Douglas Adams blends absurd humor and satire in this story of Arthur Dent, who narrowly escapes Earth’s demolition thanks to his alien friend Ford Prefect. With bizarre characters and witty commentary, it parodies science fiction while exploring human existence.",
+    "themes": ["comedy", "sci-fi", "satire", "existence", "absurdity"]
+  }
+]
