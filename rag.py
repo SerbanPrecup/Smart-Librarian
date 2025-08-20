@@ -47,28 +47,6 @@ def build_index(data_path="data/book_summaries.json", db_path="chroma_db", colle
     collection.add(ids=ids, documents=docs, metadatas=metas, embeddings=embs)
     return len(ids)
 
-def build_index(data_path="data/book_summaries.json", db_path="chroma_db", collection_name="books"):
-    books = load_books(data_path)
-    collection = get_chroma_collection(db_path, collection_name)
-    client = OpenAI()
-
-    try:
-        collection.delete(where={})
-    except Exception:
-        pass
-
-    ids, docs, metas, embs = [], [], [], []
-    for i, b in enumerate(books, start=1):
-        text = _doc_for_index(b)
-        emb = client.embeddings.create(model=MODEL_EMBED, input=text).data[0].embedding
-        ids.append(f"book-{i}")
-        docs.append(text)
-        metas.append({"title": b["title"]})
-        embs.append(emb)
-
-    collection.add(ids=ids, documents=docs, metadatas=metas, embeddings=embs)
-    return len(ids)
-
 def retrieve(query: str, n_results: int = 4, db_path="chroma_db", collection_name="books"):
     collection = get_chroma_collection(db_path, collection_name)
     client = OpenAI()
