@@ -4,9 +4,15 @@ from chromadb import PersistentClient
 from openai import OpenAI
 
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=True)
 
+raw_key = os.getenv("OPENAI_API_KEY", "")
+api_key = raw_key.strip().strip('"').strip("'")  # taie newline/ghilimele accidentale
 
+if not api_key.startswith("sk-"):
+    raise ValueError("Invalid OPENAI_API_KEY: expected a key starting with 'sk-'.")
+
+client = OpenAI(api_key=api_key)
 MODEL_EMBED = os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-small")
 
 def load_books(path: str = "data/book_summaries.json") -> List[Dict[str, Any]]:
